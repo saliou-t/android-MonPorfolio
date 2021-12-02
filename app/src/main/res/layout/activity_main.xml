@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:contentDescription="Ma_photo"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        app:cardCornerRadius="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:elevation="10dp">
+
+        <ImageView
+            android:id="@+id/Btnhome"
+            android:layout_width="200dp"
+            android:layout_height="259dp"
+            android:scaleType="centerCrop"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_text_name"
+        android:layout_gravity="center"
+        android:textColor="@color/primary"
+        android:textSize="40dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/home_text_domaine"
+        android:textColor="@color/white"
+        android:textSize="30dp" ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="173dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/home_text_description"
+        android:textColor="@color/white"
+        android:textSize="25dp"></TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="155dp"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/HomeBtnHome"
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black"
+            app:srcCompat="@drawable/home1" />
+
+        <ImageButton
+            android:id="@+id/HomeBtnAbout"
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black"
+            app:srcCompat="@drawable/about1" />
+
+        <ImageButton
+            android:id="@+id/HomeBtnContact"
+            android:layout_width="82dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@color/black"
+            app:srcCompat="@drawable/contact1" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+            />
+    </ScrollView>
+</LinearLayout>

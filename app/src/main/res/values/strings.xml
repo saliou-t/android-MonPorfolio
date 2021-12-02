@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MYAPP</string>
+
+
+    <!--> Page d'accueil <-->
+    <string name="home_text_name">Cheikh Saliou TALLA</string>
+    <string name="home_text_domaine">Developpeur web</string>
+    <string name="home_text_description">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ip sam voluptate ducimus laudantium non dent, error quos necessita</string>
+
+    <!--> Page contact<-->
+    <string name="contact_text_contact">Contacter-</string>
+    <string name="contact_text_moi">MOI</string>
+    <string name="contact_sub_title_adresse">Mon adresse domicile</string>
+    <string name="contact_adresse">Lorem ipsum dolor sit amet consec tetur adipisicing, elit. </string>
+    <string name="contact_sub_title_email">Adresse email</string>
+    <string name="contact_email">Cheikhserignesalioutalla@gmail.com</string>
+    <string name="contact_sutitle_tel">Tél</string>
+    <string name="contact_tel">+221 77490 66 95</string>
+    <string name="contact_subt_title_linkedin">Linkedin</string>
+    <string name="contact_linkedin">saliou TALLA</string>
+
+</resources>
