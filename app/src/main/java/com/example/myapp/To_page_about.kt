@@ -5,12 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageButton
 
-class MainActivity : AppCompatActivity() {
+class To_page_about : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
-        //setContentView(R.layout.fragement_about)
-
+        setContentView(R.layout.fragement_about)
 
         val btnContact = findViewById<ImageButton>(R.id.HomeBtnContact)
         btnContact.setOnClickListener{
@@ -18,10 +16,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val btnAbout = findViewById<ImageButton>(R.id.HomeBtnAbout)
-        btnAbout.setOnClickListener {
-            var intent2 = Intent(this, To_page_about::class.java)
+        val btnHome= findViewById<ImageButton>(R.id.HomeBtnHome)
+        btnHome.setOnClickListener {
+            val intent2 = Intent(this, MainActivity::class.java)
             startActivity(intent2)
         }
     }
+
 }

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MYAPP">
         <activity
+            android:name=".To_page_about"
+            android:exported="true" />
+        <activity
+            android:name=".To_page_contact"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

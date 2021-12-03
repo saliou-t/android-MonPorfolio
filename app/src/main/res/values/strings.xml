@@ -1,13 +1,12 @@
 <resources>
     <string name="app_name">MYAPP</string>
 
-
-    <!--> Page d'accueil <-->
+    <!-- Page d'accueil -->
     <string name="home_text_name">Cheikh Saliou TALLA</string>
     <string name="home_text_domaine">Developpeur web</string>
     <string name="home_text_description">Lorem ipsum dolor sit amet consectetur adipisicing, elit. Ip sam voluptate ducimus laudantium non dent, error quos necessita</string>
 
-    <!--> Page contact<-->
+    <!-- Page contact -->
     <string name="contact_text_contact">Contacter-</string>
     <string name="contact_text_moi">MOI</string>
     <string name="contact_sub_title_adresse">Mon adresse domicile</string>
@@ -18,5 +17,44 @@
     <string name="contact_tel">+221 77490 66 95</string>
     <string name="contact_subt_title_linkedin">Linkedin</string>
     <string name="contact_linkedin">saliou TALLA</string>
+
+    <!-- Page about -->
+    <string name="about_text_information">Informations personnelles</string>
+    <string name="about_prenom_sub_title">Prénom :</string>
+    <string name="about_prenom_title_">Cheikh Saliou</string>
+    <string name="about_nom_title">TALLA</string>
+    <string name="about_nationalite_sub_title">Nationalité :</string>
+    <string name="about_nationalie">Sénégalaise</string>
+    <string name="about_age_sub_title">Age :</string>
+    <string name="about_age">23 ans</string>
+    <string name="about_langues_sub_title">Langues :</string>
+    <string name="about_langues">Anglais, Français, Wolof</string>
+    <string name="about_pays_sub_title">Pays :</string>
+    <string name="about_pays">Sénégal</string>
+    <string name="about_ville_sub_title">Ville :</string>
+    <string name="about_ville">Dakar</string>
+    <string name="about_tel_m_sub_title">Portable :</string>
+    <string name="about_tel">+221 77 490 66 95</string>
+    <string name="about_text_dowloadCV">Télécharger le CV</string>
+    <string name="about_text_annees_expe">ANNÉES EXPRIENCES</string>
+
+    <string name="about_title_comp">Compétences</string>
+    <string name="about_comp1">Java</string>
+    <string name="about_comp2">Php</string>
+    <string name="about_comp3">Js</string>
+    <string name="about_comp4">Wordpress</string>
+    <string name="about_comp5">Android</string>
+    <string name="about_comp6">UI/Design</string>
+    <string name="about_comp7">Symfony</string>
+    <string name="about_comp8">Wordpress</string>
+    <string name="about_comp9">Bootstrap</string>
+
+    <string name="about_parc_title1">BFEM</string>
+    <string name="about_parc1_desc1">2015 - CEM Serigne Ahmet Sy Malick</string>
+    <string name="about_parc_title2">BAC s2</string>
+    <string name="about_parc2_desc">2018 -  Université Virtuelle du Sénégal</string>
+    <string name="about_parc_title3">Licence</string>
+    <string name="about_parc_desc3">2021 -  Université Virtuelle du Sénégal</string>
+
 
 </resources>
